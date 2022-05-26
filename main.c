@@ -131,6 +131,7 @@ int main(int argc, char* argv[]) {
 
   fclose(fd);
   free(cells);
+  free(program);
 
   return 0;
 }

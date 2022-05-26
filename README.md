@@ -1,5 +1,5 @@
 # BF Readme
 
-A simple [brainfuck]() interpreter written in C. Usage:
+A simple [brainfuck](https://esolangs.org/wiki/Brainfuck) interpreter written in C. Usage:
 
 `bf <filename>`

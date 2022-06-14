@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const int NCELLS = 30000;
+const int NCELLS = 65536;
 
 void inc(int* index) {
   *index += 1;

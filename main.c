@@ -107,10 +107,10 @@ int main(int argc, char* argv[]) {
       cells[cells_index] -= 1;
       break;
     case '.':
-      printf("%c", cells[cells_index]);
+      putchar(cells[cells_index]);
       break;
     case ',':
-      cells[cells_index] = getc(stdin);
+      cells[cells_index] = getchar();
       break;
     case '[':
       if(cells[cells_index] == 0) {
